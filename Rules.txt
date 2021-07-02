@@ -1,0 +1,41 @@
+Rules and How to Play for In Spades:
+
+CHIPS:
+- The user starts with 90 chips. Each chip is estimated with a value of 1.5$ 
+- For every game you win, you get 90 chips and for every loss, you lose 90 chips to the computer.
+
+
+SETS AND LIFES
+- A `Set` consists of a group of cards with same value but different suits.
+- A `Life` consists of a group of cards with the increasing values with a difference of 1.
+- All sets and lifes must be of length atleast 3 to be valid.
+
+
+CARDS AND HOW THEY ARE DISTRIBUTED:
+- The game has 52 standard cards and an extra 'Joker' card.
+- All the cards are initially in the main deck.
+- In the beginning of each round (aka deal), a random card will be picked and will be declared as `card joker`. 
+- All cards with value same as card joker can be used as a substitute to form impure sets and lifes.
+- The user and the computer are given 13 cards each in the beginning.
+- A card is picked from the main deck and placed face up, as the discard pile.
+
+
+HOW TO MAKE MOVES:
+- The player moves first and needs to select a card either from main deck or discard pile.
+- The player then selects a card to remove from his own deck which is then placed in the discard pile by the dealer.
+- Then the computer moves with the same flow.
+
+
+CONDITIONS TO WIN:
+- To win the player must have a pure life (a life without any jokers) and a second life (a pure/impure life of atleast 4 cards).
+- All other cards with the player must be part of some valid group (set or life).
+
+
+HOW TO INTERACT:
+- clicking on a card selects the card.
+- swap	: select 2 cards in your own deck and click swap to swap their positions.
+- add	: select the discard pile or main deck and then click add.
+- check	: select the cards and click on check groups to see if they are a valid group. If the group is valid, it will hide the cards
+- remove: select a card and click remove
+- show	: once you have 0 cards remaining, click show groups
+- goback: click go back to go back to the menu. Note that this doesn't save the game.

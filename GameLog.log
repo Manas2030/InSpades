@@ -1,0 +1,44 @@
+In main.py/__'main'__: -------------NEW RUN-------------
+In main.py/__'main'__: initializing instance of `Game`
+In main.py/Game/game_loop: Exiting loop
+In main.py/__'main'__: ---------------------------------
+In main.py/__'main'__: -------------NEW RUN-------------
+In main.py/__'main'__: initializing instance of `Game`
+In main.py/Round/__init__: Card Joker chosen: 11-of-Hearts
+In computer.py/build_groups: computer: {Jokers: 0-of-Joker, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 6-of-Hearts, }, {group 5: 8-of-Spades, }, {group 6: 13-of-Hearts, }
+In player.py/add_card: Adding card to self.player_deck 1-of-Diamonds
+In player.py/remove_card: Card 2-of-Hearts removed from self.player_deck
+In dealer.py/take_card_from_player: Received card: 2-of-Hearts
+In main.py/game_logic: Computer is making a move.
+In main.py/update_event_info: text: Computer is making a move
+In computer.py/make_move: discard_pile_card: 2-of-Hearts, cards_needed: (val: freq) = (14: 4), (6: 2), (8: 3), (13: 2), 
+In computer.py/make_move: choose_from_discard: False
+In computer.py/get_card: computer returned 10-of-Diamonds, computer = {Jokers: 0-of-Joker, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 6-of-Hearts, }, {group 5: 8-of-Spades, }, {group 6: 13-of-Hearts, }
+In dealer.py/give_card_to_computer: card received: 10-of-Diamonds
+In computer.py/did_computer_win: computer: {Jokers: 0-of-Joker, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 6-of-Hearts, }, {group 5: 8-of-Spades, }, {group 6: 13-of-Hearts, }, num_jokers: -6
+In main.py/update_event_info: text: Can't remove!
+In main.py/update_event_info: text: Select some place to add card from!
+In dealer.py/give_card_to_player: No piles / decks selected
+In player.py/add_card: Adding card to self.player_deck 13-of-Spades
+In player.py/remove_card: Card 8-of-Diamonds removed from self.player_deck
+In dealer.py/take_card_from_player: Received card: 8-of-Diamonds
+In main.py/game_logic: Computer is making a move.
+In main.py/update_event_info: text: Computer is making a move
+In computer.py/make_move: discard_pile_card: 8-of-Diamonds, cards_needed: (val: freq) = (14: 4), (6: 2), (8: 3), (13: 2), 
+In computer.py/make_move: choose_from_discard: True
+In computer.py/get_card: computer returned 13-of-Hearts, computer = {Jokers: 0-of-Joker, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 8-of-Spades, 8-of-Diamonds, }, {group 5: 6-of-Hearts, }
+In dealer.py/give_card_to_computer: card received: 13-of-Hearts
+In computer.py/did_computer_win: computer: {Jokers: 0-of-Joker, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 8-of-Spades, 8-of-Diamonds, }, {group 5: 6-of-Hearts, }, num_jokers: -3
+In player.py/add_card: Adding card to self.player_deck 13-of-Hearts
+In player.py/remove_card: Card 2-of-Spades removed from self.player_deck
+In dealer.py/take_card_from_player: Received card: 2-of-Spades
+In main.py/game_logic: Computer is making a move.
+In main.py/update_event_info: text: Computer is making a move
+In computer.py/make_move: discard_pile_card: 2-of-Spades, cards_needed: (val: freq) = (14: 4), (8: 2), (6: 2), 
+In computer.py/make_move: choose_from_discard: False
+In computer.py/get_card: computer returned 6-of-Hearts, computer = {Jokers: 0-of-Joker, 11-of-Diamonds, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 8-of-Spades, 8-of-Diamonds, }
+In dealer.py/give_card_to_computer: card received: 6-of-Hearts
+In computer.py/did_computer_win: valid group found for computer: {Jokers: 0-of-Joker, 11-of-Diamonds, }, {group 1: 3-of-Clubs, 4-of-Diamonds, 5-of-Diamonds, 6-of-Clubs, }, {group 2: 2-of-Clubs, 3-of-Diamonds, 4-of-Clubs, }, {group 3: 12-of-Diamonds, 13-of-Clubs, }, {group 4: 8-of-Spades, 8-of-Diamonds, }
+In main.py/Round/game_loop: Exiting loop
+In main.py/Game/game_loop: Exiting loop
+In main.py/__'main'__: ---------------------------------
